@@ -20,3 +20,7 @@ variable "subnet_id" {
 variable "vpc_security_group_ids" {
   description = "SG for VPC"
 }
+
+variable "ssh" {
+  description = "SG for for worker node"
+}

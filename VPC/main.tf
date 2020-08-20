@@ -6,7 +6,6 @@ resource "aws_vpc" "vpc" {
   }
 }
 
-
 resource "aws_route_table" "route" {
   vpc_id = aws_vpc.vpc.id
 

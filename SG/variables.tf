@@ -5,7 +5,7 @@ variable "vpc_id" {
 variable "ingress_ports" {
   type        = list(number)
   description = "List of ingress ports"
-  default     = [22, 8080, 80, 22]
+  default     = [22, 8080, 80]
 }
 
 variable "open_internet" {
