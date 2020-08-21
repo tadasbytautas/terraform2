@@ -24,3 +24,7 @@ variable "vpc_security_group_ids" {
 variable "ssh" {
   description = "SG for for worker node"
 }
+
+variable "user_data" {
+  description = "script to run when creating instance"
+}
